@@ -469,3 +469,14 @@
   tags: ["economics", "analysis", "policy"]
   notes: ""
 
+# NOWE ŹRÓDŁA - FAZA 1
+- name: Independent Institute
+  feed: https://www.independent.org/feed/
+  type: opinion
+  country: US
+  license: permissive
+  robots_ok: true
+  rate_limit_rps: 0.2
+  tags: ["libertarian", "policy", "research"]
+  notes: "American libertarian think tank - Phase 1"
+
