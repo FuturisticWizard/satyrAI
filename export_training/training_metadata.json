@@ -1,0 +1,24 @@
+{
+  "export_date": "2025-12-24T18:57:42.137710",
+  "total_articles": 893,
+  "train_size": 764,
+  "eval_size": 129,
+  "languages": {
+    "pl": 437,
+    "en": 327
+  },
+  "sources_count": 23,
+  "recommended_models": [
+    "microsoft/DialoGPT-medium",
+    "microsoft/DialoGPT-large",
+    "meta-llama/Llama-3.2-3B-Instruct",
+    "meta-llama/Llama-3.1-8B-Instruct",
+    "mistralai/Mistral-7B-Instruct-v0.3"
+  ],
+  "hardware_requirements": {
+    "gpu_memory": "16GB+ for 7B models, 24GB+ for 8B models",
+    "system_ram": "32GB+",
+    "disk_space": "50GB+",
+    "recommended_gpu": "RTX 4090/5090, A100, H100"
+  }
+}

@@ -1,0 +1,482 @@
+- name: Reason Magazine
+  feed: https://reason.com/feed/
+  type: opinion
+  country: US
+  license: permissive
+  robots_ok: false
+  rate_limit_rps: 0.2
+  tags:
+  - libertarian
+  - politics
+  - economics
+  notes: Sprawdzić Terms of Use; pełny feed.
+  robots_allowed: true
+  robots_url: https://reason.com/robots.txt
+  http_status: 200
+  final_url: https://reason.com/feed/
+- name: Cato Institute
+  feed: https://www.cato.org/rss
+  type: opinion
+  country: US
+  license: permissive
+  robots_ok: true
+  rate_limit_rps: 0.2
+  tags:
+  - libertarian
+  - policy
+  - economics
+  notes: Think-tank; weryfikacja licencji.
+  robots_allowed: true
+  robots_url: https://www.cato.org/robots.txt
+  http_status: 200
+  final_url: https://www.cato.org/rss
+- name: Foundation for Economic Education (FEE)
+  feed: https://fee.org/articles/rss/
+  type: opinion
+  country: US
+  license: permissive
+  robots_ok: true
+  rate_limit_rps: 0.2
+  tags:
+  - economics
+  - libertarian
+  - education
+  notes: Sprawdzić licencję artykułów.
+  robots_allowed: true
+  robots_url: https://fee.org/robots.txt
+  http_status: 404
+  final_url: https://fee.org/articles/rss/
+- name: Mises Institute
+  feed: https://mises.org/rss.xml
+  type: opinion
+  country: US
+  license: permissive
+  robots_ok: true
+  rate_limit_rps: 0.2
+  tags:
+  - austrian
+  - economics
+  - libertarian
+  notes: Sprawdzić re-use politykę.
+  robots_allowed: true
+  robots_url: https://mises.org/robots.txt
+  http_status: 200
+  final_url: https://mises.org/rss.xml
+- name: Libertarian Institute
+  feed: https://libertarianinstitute.org/feed/
+  type: opinion
+  country: US
+  license: permissive
+  robots_ok: true
+  rate_limit_rps: 0.2
+  tags:
+  - libertarian
+  - politics
+  - foreign-policy
+  notes: ''
+  robots_allowed: true
+  robots_url: https://libertarianinstitute.org/robots.txt
+  http_status: 200
+  final_url: https://libertarianinstitute.org/feed/
+- name: AIER
+  feed: https://www.aier.org/feed/
+  type: opinion
+  country: US
+  license: permissive
+  robots_ok: false
+  rate_limit_rps: 0.2
+  tags:
+  - economics
+  - policy
+  - markets
+  notes: American Institute for Economic Research.
+  robots_allowed: false
+  robots_url: https://www.aier.org/robots.txt
+  http_status: 200
+  final_url: https://aier.org/feed/
+- name: Adam Smith Institute
+  feed: https://www.adamsmith.org/feed
+  type: opinion
+  country: UK
+  license: permissive
+  robots_ok: true
+  rate_limit_rps: 0.2
+  tags:
+  - economics
+  - policy
+  - liberal
+  notes: ''
+  robots_allowed: true
+  robots_url: https://www.adamsmith.org/robots.txt
+  http_status: 404
+  final_url: https://www.adamsmith.org/feed
+- name: Competitive Enterprise Institute
+  feed: https://cei.org/feed/
+  type: opinion
+  country: US
+  license: permissive
+  robots_ok: false
+  rate_limit_rps: 0.2
+  tags:
+  - policy
+  - economics
+  - regulation
+  notes: ''
+  robots_allowed: false
+  robots_url: https://cei.org/robots.txt
+  http_status: 403
+  final_url: https://cei.org/feed/
+- name: Quillette
+  feed: https://quillette.com/feed/
+  type: opinion
+  country: AU
+  license: permissive
+  robots_ok: true
+  rate_limit_rps: 0.2
+  tags:
+  - opinion
+  - culture
+  - liberal
+  notes: Sprawdzić licencję/Terms.
+  robots_allowed: true
+  robots_url: https://quillette.com/robots.txt
+  http_status: 404
+  final_url: https://quillette.com/feed/
+- name: City Journal
+  feed: https://www.city-journal.org/feed
+  type: opinion
+  country: US
+  license: permissive
+  robots_ok: true
+  rate_limit_rps: 0.2
+  tags:
+  - policy
+  - urban
+  - opinion
+  notes: ''
+  robots_allowed: true
+  robots_url: https://www.city-journal.org/robots.txt
+  http_status: 404
+  final_url: https://www.city-journal.org/feed
+- name: The Spectator
+  feed: https://www.spectator.co.uk/feed
+  type: opinion
+  country: UK
+  license: permissive
+  robots_ok: true
+  rate_limit_rps: 0.2
+  tags:
+  - opinion
+  - politics
+  notes: Sprawdzić warunki re-use.
+  robots_allowed: true
+  robots_url: https://www.spectator.co.uk/robots.txt
+  http_status: 500
+  final_url: https://www.spectator.co.uk/feed/
+- name: The Dispatch
+  feed: https://thedispatch.com/feed/
+  type: opinion
+  country: US
+  license: permissive
+  robots_ok: true
+  rate_limit_rps: 0.2
+  tags:
+  - opinion
+  - politics
+  notes: Możliwy częściowy feed; paywall? sprawdzić.
+  robots_allowed: true
+  robots_url: https://thedispatch.com/robots.txt
+  http_status: 200
+  final_url: https://thedispatch.com/feed/
+- name: UnHerd
+  feed: https://unherd.com/feed/
+  type: opinion
+  country: UK
+  license: permissive
+  robots_ok: true
+  rate_limit_rps: 0.2
+  tags:
+  - opinion
+  - culture
+  - politics
+  notes: Zweryfikować Terms.
+  robots_allowed: true
+  robots_url: https://unherd.com/robots.txt
+  http_status: 200
+  final_url: https://unherd.com/feed/
+- name: CapX
+  feed: https://capx.co/feed/
+  type: opinion
+  country: UK
+  license: permissive
+  robots_ok: false
+  rate_limit_rps: 0.2
+  tags:
+  - economics
+  - policy
+  - markets
+  notes: ''
+  robots_allowed: false
+  robots_url: https://capx.co/robots.txt
+  http_status: 403
+  final_url: http://capx.co/
+- name: Spiked
+  feed: https://www.spiked-online.com/feed/
+  type: opinion
+  country: UK
+  license: permissive
+  robots_ok: false
+  rate_limit_rps: 0.2
+  tags:
+  - opinion
+  - culture
+  - politics
+  notes: ''
+  robots_allowed: false
+  robots_url: https://www.spiked-online.com/robots.txt
+  http_status: 200
+  final_url: https://www.spiked-online.com/feed/
+- name: The Babylon Bee
+  feed: https://babylonbee.com/feed
+  type: satire
+  country: US
+  license: permissive
+  robots_ok: false
+  rate_limit_rps: 0.15
+  tags:
+  - satire
+  - politics
+  - culture
+  notes: Sprawdzić prawa do re-use; satyra.
+  robots_allowed: false
+  robots_url: https://babylonbee.com/robots.txt
+  http_status: 200
+  final_url: https://babylonbee.com/feed
+- name: Duffel Blog
+  feed: https://www.duffelblog.com/feed
+  type: satire
+  country: US
+  license: permissive
+  robots_ok: true
+  rate_limit_rps: 0.15
+  tags:
+  - satire
+  - military
+  notes: ''
+  robots_allowed: true
+  robots_url: https://www.duffelblog.com/robots.txt
+  http_status: 200
+  final_url: https://www.duffelblog.com/rss/
+- name: Warsaw Enterprise Institute (WEI)
+  feed: https://wei.org.pl/feed/
+  type: opinion
+  country: PL
+  license: permissive
+  robots_ok: true
+  rate_limit_rps: 0.1
+  tags:
+  - economics
+  - policy
+  - libertarian
+  notes: Sprawdzić licencję; polski feed.
+  robots_allowed: true
+  robots_url: https://wei.org.pl/robots.txt
+  http_status: 200
+  final_url: https://wei.org.pl/feed/
+- name: FOR (Forum Obywatelskiego Rozwoju)
+  feed: https://for.org.pl/pl/rss
+  type: opinion
+  country: PL
+  license: permissive
+  robots_ok: true
+  rate_limit_rps: 0.1
+  tags:
+  - economics
+  - policy
+  - liberal
+  notes: Sprawdzić licencję; polski feed.
+  robots_allowed: true
+  robots_url: https://for.org.pl/robots.txt
+  http_status: 403
+  final_url: https://for.org.pl/pl/rss
+- name: Instytut Misesa PL
+  feed: https://mises.pl/feed/
+  type: opinion
+  country: PL
+  license: permissive
+  robots_ok: true
+  rate_limit_rps: 0.1
+  tags:
+  - austrian
+  - economics
+  - libertarian
+  notes: Sprawdzić licencję.
+  robots_allowed: true
+  robots_url: https://mises.pl/robots.txt
+  http_status: 404
+  final_url: https://mises.pl/feed
+- name: Libertarianizm.pl
+  feed: https://libertarianizm.pl/feed/
+  type: opinion
+  country: PL
+  license: permissive
+  robots_ok: true
+  rate_limit_rps: 0.1
+  tags:
+  - libertarian
+  - opinion
+  notes: Sprawdzić licencję.
+  robots_allowed: true
+  robots_url: https://libertarianizm.pl/robots.txt
+  http_status: 404
+  final_url: https://www.libertarianizm.pl/feed/
+- name: Aszdziennik
+  feed: https://aszdziennik.pl/rss
+  type: satire
+  country: PL
+  license: permissive
+  robots_ok: true
+  rate_limit_rps: 0.1
+  tags:
+  - satire
+  - politics
+  - humor
+  notes: Sprawdzić prawa/licencję; możliwe ograniczenia re-use.
+  robots_allowed: true
+  robots_url: https://aszdziennik.pl/robots.txt
+  http_status: 404
+  final_url: https://aszdziennik.pl/rss
+- name: Donald.pl
+  feed: https://www.donald.pl/rss
+  type: satire
+  country: PL
+  license: permissive
+  robots_ok: true
+  rate_limit_rps: 0.1
+  tags:
+  - satire
+  - politics
+  - humor
+  notes: Sprawdzić prawa/licencję; możliwy częściowy feed.
+  robots_allowed: true
+  robots_url: https://www.donald.pl/robots.txt
+  http_status: 404
+  final_url: https://www.donald.pl/rss
+- name: Subiektywnie o finansach
+  feed: https://subiektywnieofinansach.pl/feed/
+  type: economics
+  country: PL
+  license: permissive
+  robots_ok: true
+  rate_limit_rps: 0.1
+  tags:
+  - finance
+  - economics
+  - opinion
+  notes: ''
+  robots_allowed: true
+  robots_url: https://subiektywnieofinansach.pl/robots.txt
+  http_status: 200
+  final_url: https://subiektywnieofinansach.pl/feed/
+
+- name: Klub Jagielloński
+  feed: https://klubjagiellonski.pl/feed/
+  type: opinion
+  country: PL
+  license: permissive
+  robots_ok: false
+  rate_limit_rps: 0.1
+  tags: ["policy", "opinion", "economics"]
+  notes: ""
+
+- name: Nowa Konfederacja
+  feed: https://nowakonfederacja.pl/feed/
+  type: opinion
+  country: PL
+  license: permissive
+  robots_ok: false
+  rate_limit_rps: 0.1
+  tags: ["opinion", "politics", "economics"]
+  notes: ""
+
+- name: Ordo Iuris
+  feed: https://ordoiuris.pl/rss.xml
+  type: opinion
+  country: PL
+  license: permissive
+  robots_ok: false
+  rate_limit_rps: 0.1
+  tags: ["law", "policy", "opinion"]
+  notes: ""
+
+- name: DoRzeczy
+  feed: https://dorzeczy.pl/rss
+  type: opinion
+  country: PL
+  license: permissive
+  robots_ok: false
+  rate_limit_rps: 0.1
+  tags: ["politics", "opinion", "right-wing"]
+  notes: ""
+
+- name: wPolityce
+  feed: https://wpolityce.pl/rss
+  type: opinion
+  country: PL
+  license: permissive
+  robots_ok: false
+  rate_limit_rps: 0.1
+  tags: ["politics", "opinion", "right-wing"]
+  notes: ""
+
+- name: Niezalezna
+  feed: https://niezalezna.pl/rss/
+  type: opinion
+  country: PL
+  license: permissive
+  robots_ok: false
+  rate_limit_rps: 0.1
+  tags: ["politics", "opinion", "right-wing"]
+  notes: ""
+
+- name: Gazeta Bankowa
+  feed: https://www.gb.pl/rss.xml
+  type: economics
+  country: PL
+  license: permissive
+  robots_ok: false
+  rate_limit_rps: 0.1
+  tags: ["economics", "finance", "policy"]
+  notes: ""
+
+- name: Bankier (wiadomosci)
+  feed: https://www.bankier.pl/rss/wiadomosci.xml
+  type: economics
+  country: PL
+  license: permissive
+  robots_ok: false
+  rate_limit_rps: 0.1
+  tags: ["economics", "finance", "markets"]
+  notes: ""
+
+- name: Obserwator Finansowy
+  feed: https://www.obserwatorfinansowy.pl/feed/
+  type: economics
+  country: PL
+  license: permissive
+  robots_ok: false
+  rate_limit_rps: 0.1
+  tags: ["economics", "analysis", "policy"]
+  notes: ""
+
+# NOWE ŹRÓDŁA - FAZA 1
+- name: Independent Institute
+  feed: https://www.independent.org/feed/
+  type: opinion
+  country: US
+  license: permissive
+  robots_ok: true
+  rate_limit_rps: 0.2
+  tags: ["libertarian", "policy", "research"]
+  notes: "American libertarian think tank - Phase 1"
+

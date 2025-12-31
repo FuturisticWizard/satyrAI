@@ -1,0 +1,46 @@
+# Konfiguracja pipeline SatyrAI (ingest/processing)
+paths:
+  raw_dir: "data/raw"
+  clean_dir: "data/clean"
+  curated_dir: "data/curated"
+  eval_dir: "data/eval"
+  quarantine_dir: "data/quarantine"
+  logs_dir: "logs"
+
+fetch:
+  user_agent: "SatyrAI-bot/0.1"
+  timeout_sec: 8
+  max_retries: 3
+  backoff_sec: 2
+
+rate_limit:
+  default_rps: 0.2
+  polish_rps: 0.1
+
+toxicity:
+  enabled: true
+  model: "detoxify"
+  threshold: 0.35
+
+pii:
+  enabled: true
+  providers: ["regex", "spacy"]
+  redact: true
+
+dedupe:
+  minhash_threshold: 0.82
+  simhash_threshold: 0.85
+
+tagging:
+  enabled: true
+  topics: ["economics", "taxes", "speech", "regulation", "foreign-policy", "tech"]
+  tones: ["satire", "irony", "commentary"]
+
+logging:
+  level: "INFO"
+  format: "json"
+
+report:
+  top_sources: 20
+  save_markdown: true
+
